@@ -1,0 +1,112 @@
+html {
+    height:100%;
+}
+
+
+
+body  {
+
+background-color: rgb(15, 14, 15);
+background-image:url(images/1682771074494.jpg) ;
+background-size: cover;
+background-repeat:no-repeat ;
+background-position:center ;
+
+}
+
+
+
+
+
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width:1024px ;
+    
+    }
+
+
+
+
+
+
+header 
+
+
+
+
+{background-color:white ;
+    height: 118px;
+    
+    
+
+}
+
+nav {
+    background-color: rgba(16, 15, 15, 0.318);
+    text-align: center;
+    padding-top:14px;
+    padding-bottom:14px;
+    
+    
+    
+
+}
+
+.m  {
+background-color: aqua;
+height: 400px;
+
+
+}
+
+
+ 
+footer {
+    
+    height:500px ;
+    text-align: center;
+    margin-top:80px ;
+    padding-left: 240px;
+    padding-right: 240px;
+    
+    
+
+
+}
+h1 {
+font-size: 60px;
+color: white;
+font-family: Arial, Helvetica, sans-serif,comic sans;
+text-align: center;
+
+}
+p {
+    font-size: 20px;
+    color:rgb(251, 251, 254);
+    font-family: Arial, Helvetica, sans-serif,comic sans;
+    
+
+}
+a {
+    color:white ;
+ font-family:Arial, Helvetica, sans-serif ;
+ /*text-decoration: none;*/
+}
+ nav a {
+text-decoration:none ;
+font-size:12px ;
+padding-left:10px ;
+padding-right:10px ;
+
+}
+.no-underline{
+text-decoration: none;
+
+
+}
+
+
+
+
