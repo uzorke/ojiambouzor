@@ -1,56 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>ISAAC OJIAMBO</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Isaac Ojiambo</title>
+  <style>
+    /* Reset and base styles */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: #fafafa;
+      color: #333;
+      line-height: 1.6;
+      padding: 15px;
+    }
+
+    .wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgb(0 0 0 / 0.1);
+    }
+
+    header img {
+      max-width: 150px;
+      height: auto;
+      display: block;
+      margin: 0 auto 20px;
+    }
+
+    nav {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 12px;
+      margin-bottom: 25px;
+    }
+
+    nav a {
+      flex: 1 1 120px;
+      text-align: center;
+      padding: 12px 15px;
+      background-color: #0077cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    nav a:hover {
+      background-color: #005fa3;
+    }
+
+    footer {
+      background-color: #f4f4f4;
+      padding: 20px 15px;
+      border-radius: 6px;
+      text-align: center;
+      margin-top: 30px;
+    }
+
+    footer h1 {
+      margin-bottom: 15px;
+      color: #0077cc;
+    }
+
+    footer p {
+      margin-bottom: 15px;
+      font-size: 1rem;
+    }
+
+    footer a {
+      display: inline-block;
+      padding: 10px 25px;
+      background-color: #0077cc;
+      color: white;
+      text-decoration: none;
+      border-radius: 6px;
+      font-weight: bold;
+      transition: background-color 0.3s;
+    }
+
+    footer a:hover {
+      background-color: #005fa3;
+    }
+
+    /* Responsive tweaks */
+    @media (max-width: 500px) {
+      nav a {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
 </head>
 <body>
+  <div class="wrapper">
+    <header>
+      <img src="images/IMG_20230908_151040.png" alt="Logo for Ojiambo Isaac Digital World" />
+    </header>
 
-    <div class="wrapper">
-  <header>
-<img src="images/IMG_20230908_151040.png" alt="logo for ojiambo isaac digital world">
-  </header>
+    <nav>
+      <a href="#">HOME</a>
+      <a href="#">ANIMATIONS</a>
+      <a href="#">ARTICLES</a>
+      <a href="#">CULTURE</a>
+      <a href="#">MOTIVATION</a>
+      <a href="#">CONTACT</a>
+    </nav>
 
-  <nav>
-    <a href="#">HOME</a>
-    <a href="#">ANIMATIONS</a>
-    <a href="#">ARTICLES</a>
-    <a href="#">CULTURE</a>
-    <a href="#">MOTIVATION</a>
-    <a href="#">CONTACT</a>
-
-  </nav>
-
-  <m></m>
-
-
-
-
-  
-
-  
-
-
-
-
-  <footer>
-    <h1>Digital world</h1>
-<p>Hello,welcome to my website,am Sir <a href="">Isaac Ojiambo</a> from Nairobi,Kenya.
-I’m the CEO of Ojiambo Media and the Founder of Isomer.
-I’m a full stack developer, commentator, environmentalist, philosopher, self-taught scientist and I also do animation, graphic and design, photo editing, and video editing in my free time.If you have any qestion,you can send me a direct message via email.
-Feel free to explore my work and get in touch. Thank you for visiting!</p>
-
-
-    <a href="mailto:isaacojiambo47@gmail.com?subject=Animation">CHAT NOW</a>
-    <p>Nairobi kenya-copyright 2025</p>
-  </footer>
-
-
-
-</div>
-
-
+    <footer>
+      <h1>Digital World</h1>
+      <p>
+        Hello, welcome to my website. I am Sir <a href="#">Isaac Ojiambo</a> from Nairobi, Kenya.
+        I’m the CEO of Ojiambo Media and the Founder of Isomer.
+        I’m a full stack developer, commentator, environmentalist, philosopher, self-taught scientist, and I also do animation, graphic design, photo editing, and video editing in my free time.
+        If you have any questions, you can send me a direct message via email.
+        Feel free to explore my work and get in touch. Thank you for visiting!
+      </p>
+      <a href="mailto:isaacojiambo47@gmail.com?subject=Animation">CHAT NOW</a>
+      <p style="margin-top: 15px;">Nairobi, Kenya &copy; 2025</p>
+    </footer>
+  </div>
 </body>
 </html>
+
